@@ -1,0 +1,76 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #2D3748; /* Primary Dark Slate */
+    color: #E2E8F0; /* Light text for readability */
+}
+
+/* Container Styling */
+.container {
+    background-color: #4A5568; /* Secondary Slate Gray */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #E2E8F0;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+/* Input Styling */
+input, select {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border-radius: 6px;
+    border: none;
+    background-color: #2D3748; /* Primary Color */
+    color: #E2E8F0;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    background-color: #1A202C; /* Slightly darker on focus */
+    outline: none;
+}
+
+/* Button Styling */
+button {
+    background-color: #38B2AC; /* Accent Teal */
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #319795; /* Slightly darker teal on hover */
+}
+
+/* Result Styling */
+p#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E2E8F0; /* Light text */
+}
